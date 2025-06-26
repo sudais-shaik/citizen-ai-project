@@ -1,1 +1,30 @@
-# citizen-ai-project
+# Citizen AI – Intelligent Citizen Engagement Platform 🧠💬
+
+An AI-powered chatbot and sentiment analysis platform built to help governments better engage with citizens, understand public sentiment, and respond to feedback efficiently.
+
+## 🚀 Features
+
+- 🤖 **Conversational AI** powered by GPT-2 for citizen assistance  
+- 📈 **Sentiment analysis** to gauge public emotions (Positive, Neutral, Negative)  
+- 🌐 **Web interface** using Flask + HTML for easy access  
+- 💡 Beginner-friendly and modular project structure  
+
+## 🛠️ Tech Stack
+
+| Layer     | Tool/Library                                |
+|-----------|---------------------------------------------|
+| Backend   | Python, Flask                               |
+| AI Models | Hugging Face Transformers (`gpt2`, `distilbert`) |
+| Frontend  | HTML/CSS (`index.html`)                     |
+| Deployment| Run locally or in Google Colab              |
+
+## 📂 Folder Structure
+
+## ▶️ Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sudais-shaik/citizen-ai-project.git
+   cd citizen-ai-project
+   pip install -r requirements.txt
+   python app.py
