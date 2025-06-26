@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Citizen AI Assistant</title>
+    <title>Citizen AI Platform</title>
 </head>
 <body>
-    <h1>Citizen Assistant Chatbot</h1>
+    <h1>Citizen AI – Chat & Sentiment Analyzer</h1>
     <form method="post">
-        <input type="text" name="message" placeholder="Type your question here">
-        <input type="submit" value="Ask">
+        <textarea name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea><br>
+        <input type="submit" value="Submit">
     </form>
-
     {% if response %}
-        <p><strong>Bot Response:</strong> {{ response }}</p>
-        <p><strong>Sentiment:</strong> {{ mood }}</p>
+        <h3>AI Response:</h3>
+        <p>{{ response }}</p>
+        <h3>Detected Sentiment:</h3>
+        <p>{{ mood }}</p>
     {% endif %}
 </body>
 </html>
+
