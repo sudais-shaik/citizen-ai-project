@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citizen AI Assistant</title>
+</head>
+<body>
+    <h1>Citizen Assistant Chatbot</h1>
+    <form method="post">
+        <input type="text" name="message" placeholder="Type your question here">
+        <input type="submit" value="Ask">
+    </form>
+
+    {% if response %}
+        <p><strong>Bot Response:</strong> {{ response }}</p>
+        <p><strong>Sentiment:</strong> {{ mood }}</p>
+    {% endif %}
+</body>
+</html>
